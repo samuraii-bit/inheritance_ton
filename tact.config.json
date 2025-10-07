@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tact-lang/tact/main/src/config/configSchema.json",
+  "projects": [
+    {
+      "name": "DeployableCounter",
+      "path": "contracts/deployable_counter.tact",
+      "output": "build/DeployableCounter",
+      "options": {
+        "debug": false,
+        "external": false
+      },
+      "mode": "full"
+    },
+    {
+      "name": "OwnableCounter",
+      "path": "contracts/ownable_counter.tact",
+      "output": "build/OwnableCounter",
+      "options": {
+        "debug": false,
+        "external": false
+      },
+      "mode": "full"
+    },
+    {
+      "name": "StoppableCounter",
+      "path": "contracts/stoppable_counter.tact",
+      "output": "build/StoppableCounter",
+      "options": {
+        "debug": false,
+        "external": false
+      },
+      "mode": "full"
+    },
+    {
+      "name": "TrackableCounter",
+      "path": "contracts/trackable_counter.tact",
+      "output": "build/TrackableCounter",
+      "options": {
+        "debug": false,
+        "external": false
+      },
+      "mode": "full"
+    }
+  ]
+}
